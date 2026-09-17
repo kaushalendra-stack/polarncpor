@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   ),
   title: {
     default:
-      "PolarSagar Portal | National Centre for Polar and Ocean Research, Ministry of Earth Sciences, Government of India",
+      "PolarNCPOR Portal | National Centre for Polar and Ocean Research, Ministry of Earth Sciences, Government of India",
     template:
       "%s | National Centre for Polar and Ocean Research (NCPOR), Government of India",
   },
@@ -47,8 +47,8 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_IN",
-    siteName: "PolarSagar Portal",
-    title: "PolarSagar Portal | NCPOR, Ministry of Earth Sciences, Government of India",
+    siteName: "PolarNCPOR Portal",
+    title: "PolarNCPOR Portal | NCPOR, Ministry of Earth Sciences, Government of India",
     description:
       "Explore Indian polar expeditions, datasets, publications and media — India's gateway to Antarctic, Arctic and Southern Ocean knowledge.",
   },

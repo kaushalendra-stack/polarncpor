@@ -53,7 +53,7 @@ export async function GET() {
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>PolarSagar — NCPOR Outreach Feed</title>
+    <title>PolarNCPOR — NCPOR Outreach Feed</title>
     <link>${baseUrl}</link>
     <description>Latest publications, news and activities from India's polar science programme (NCPOR, Ministry of Earth Sciences).</description>
     <language>en-in</language>
@@ -61,7 +61,7 @@ export async function GET() {
     <atom:link href="${baseUrl}/feed.xml" rel="self" type="application/rss+xml" />
     <image>
       <url>${baseUrl}/favicon.ico</url>
-      <title>PolarSagar — NCPOR</title>
+      <title>PolarNCPOR — NCPOR</title>
       <link>${baseUrl}</link>
     </image>
     ${pubItems}

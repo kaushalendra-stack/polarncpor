@@ -4,7 +4,7 @@ import { SectionHeader } from "@/components/UI";
 import JsonLd from "@/components/JsonLd";
 
 export const metadata: Metadata = {
-  title: "Open Data API — PolarSagar | NCPOR, Government of India",
+  title: "Open Data API — PolarNCPOR | NCPOR, Government of India",
   description:
     "Public REST API documentation for the Integrated Polar Science Outreach and Knowledge Repository Portal — expeditions, datasets and station weather.", 
 };
@@ -57,7 +57,7 @@ export default function ApiDocsPage() {
         data={{
           "@context": "https://schema.org",
           "@type": "WebPage",
-          name: "Open Data API — PolarSagar",
+          name: "Open Data API — PolarNCPOR",
           about: "Open data API for polar science outreach dissemination.",
         }}
       />

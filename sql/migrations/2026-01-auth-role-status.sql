@@ -1,4 +1,4 @@
--- PolarSagar — registration & role-approval migration (2026-01)
+-- PolarNCPOR — registration & role-approval migration (2026-01)
 -- Adds:
 --   1. "status" column to users (active | pending) so scientist/researcher/admin
 --      registrations can await NCPOR approval before they can sign in.

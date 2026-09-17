@@ -9,7 +9,7 @@ export const privacyPolicy: PolicyContent = {
     {
       heading: "Information We Collect",
       body:
-        "The PolarSagar Portal may collect the following categories of information: (a) information voluntarily provided by you, such as through feedback forms, registration, or dataset access requests; (b) technical information automatically collected such as IP address, browser type, pages visited and time spent; (c) authentication information when you register as a researcher or content editor.",
+        "The PolarNCPOR Portal may collect the following categories of information: (a) information voluntarily provided by you, such as through feedback forms, registration, or dataset access requests; (b) technical information automatically collected such as IP address, browser type, pages visited and time spent; (c) authentication information when you register as a researcher or content editor.",
     },
     {
       heading: "Use of Information",
@@ -160,18 +160,18 @@ export const disclaimer: PolicyContent = {
 
 export const hyperlinkingPolicy: PolicyContent = {
   title: "Hyperlinking Policy",
-  subtitle: "Guidelines for linking to and from the PolarSagar Portal.",
+  subtitle: "Guidelines for linking to and from the PolarNCPOR Portal.",
   updated: "16 September 2026",
   sections: [
     {
       heading: "Links to External Websites",
       body:
-        "Links from the PolarSagar Portal to external websites are provided to enhance user convenience and access to related information. These links open in a new window and are clearly identifiable. NCPOR does not exercise control over, and is not responsible for, the content and availability of external sites.",
+        "Links from the PolarNCPOR Portal to external websites are provided to enhance user convenience and access to related information. These links open in a new window and are clearly identifiable. NCPOR does not exercise control over, and is not responsible for, the content and availability of external sites.",
     },
     {
       heading: "Links to This Portal",
       body:
-        "Prior permission is not required to link to the PolarSagar Portal. However, such links should not imply endorsement or misrepresent the identity of the portal. We would appreciate an intimation of any links to our site.",
+        "Prior permission is not required to link to the PolarNCPOR Portal. However, such links should not imply endorsement or misrepresent the identity of the portal. We would appreciate an intimation of any links to our site.",
       list: [
         "Do not frame the portal content within your site",
         "Do not imply official affiliation or endorsement",

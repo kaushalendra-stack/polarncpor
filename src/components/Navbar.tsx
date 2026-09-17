@@ -19,13 +19,13 @@ export default function Navbar() {
         <Link
           href="/"
           className="flex items-center gap-2.5"
-          aria-label="PolarSagar — home"
+          aria-label="PolarNCPOR — home"
         >
           <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-gradient-to-br from-polar-600 to-ice-500 text-white shadow-sm">
             <Mountain className="h-5 w-5" aria-hidden="true" />
           </div>
           <div className="leading-tight">
-            <div className="text-[15px] font-bold text-polar-900">PolarSagar</div>
+            <div className="text-[15px] font-bold text-polar-900">PolarNCPOR</div>
             <div className="text-[10px] font-medium uppercase tracking-widest text-slate-500">
               NCPOR Outreach Portal
             </div>

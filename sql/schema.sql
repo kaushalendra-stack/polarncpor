@@ -1,4 +1,4 @@
--- PolarSagar Portal — PostgreSQL schema (Phase 1)
+-- PolarNCPOR Portal — PostgreSQL schema (Phase 1)
 -- Naming: identifiers are stored in camelCase and are ALWAYS quoted in queries.
 
 CREATE TABLE IF NOT EXISTS users (

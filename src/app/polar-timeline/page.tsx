@@ -4,7 +4,7 @@ import { SectionHeader } from "@/components/UI";
 import JsonLd from "@/components/JsonLd";
 
 export const metadata: Metadata = {
-  title: "Polar Milestones — PolarSagar | NCPOR, Government of India",
+  title: "Polar Milestones — PolarNCPOR | NCPOR, Government of India",
   description:
     "A timeline of India's polar programme from the first Antarctic expedition in 1981 to the present — stations, policies and scientific milestones.",
 };
@@ -101,7 +101,7 @@ export default function PolarTimelinePage() {
             "Timeline of India's polar programme from 1981 to the present.",
           isPartOf: {
             "@type": "WebSite",
-            name: "PolarSagar Portal",
+            name: "PolarNCPOR Portal",
           },
         }}
       />

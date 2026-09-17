@@ -33,7 +33,7 @@ export default async function HomePage() {
           {
             "@context": "https://schema.org",
             "@type": "WebSite",
-            name: "PolarSagar Portal",
+            name: "PolarNCPOR Portal",
             url: "https://polarncpor.vercel.app",
             description:
               "Integrated Polar Science Outreach, Knowledge Repository and Media Dissemination Portal of NCPOR, Ministry of Earth Sciences, Government of India.",
@@ -371,7 +371,7 @@ export default async function HomePage() {
                   📸
                 </div>
                 <div>
-                  <div className="text-sm font-bold">PolarSagar</div>
+                  <div className="text-sm font-bold">PolarNCPOR</div>
                   <div className="text-xs text-slate-400">
                     New uploads &bull; 3 min ago
                   </div>

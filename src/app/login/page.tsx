@@ -16,9 +16,9 @@ import {
 import JsonLd from "@/components/JsonLd";
 
 export const metadata: Metadata = {
-  title: "Login — PolarSagar | NCPOR, Government of India",
+  title: "Login — PolarNCPOR | NCPOR, Government of India",
   description:
-    "Sign in to the PolarSagar portals — Student learning hub, Scientist data workspace, or NCPOR Administrator console.",
+    "Sign in to the PolarNCPOR portals — Student learning hub, Scientist data workspace, or NCPOR Administrator console.",
 };
 
 type RoleKey = "student" | "scientist" | "admin";
@@ -132,9 +132,9 @@ export default function LoginPage() {
         data={{
           "@context": "https://schema.org",
           "@type": "WebPage",
-          name: "PolarSagar Portals",
+          name: "PolarNCPOR Portals",
           description:
-            "Student, Scientist and Administrator portals of the PolarSagar portal — National Centre for Polar and Ocean Research (NCPOR), Government of India.",
+            "Student, Scientist and Administrator portals of the PolarNCPOR portal — National Centre for Polar and Ocean Research (NCPOR), Government of India.",
         }}
       />
 
@@ -154,7 +154,7 @@ export default function LoginPage() {
             href="/"
             className="mb-10 inline-flex items-center gap-1.5 text-xs font-semibold text-slate-300 transition hover:text-white"
           >
-            <ChevronLeft className="h-4 w-4" aria-hidden="true" /> Back to PolarSagar home
+            <ChevronLeft className="h-4 w-4" aria-hidden="true" /> Back to PolarNCPOR home
           </Link>
 
           <div className="grid items-end gap-10 lg:grid-cols-[1.25fr_1fr]">
@@ -166,7 +166,7 @@ export default function LoginPage() {
                 Choose your portal
               </h1>
               <p className="mt-4 max-w-xl text-base leading-relaxed text-slate-300">
-                One PolarSagar account, three ways in. Students learn, scientists work with
+                One PolarNCPOR account, three ways in. Students learn, scientists work with
                 NCPOR data, and administrators keep the portal running.
               </p>
               <div className="mt-6 flex flex-wrap items-center gap-x-6 gap-y-2 text-sm text-slate-300">

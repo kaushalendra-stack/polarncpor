@@ -5,7 +5,7 @@ import { SectionHeader } from "@/components/UI";
 import JsonLd from "@/components/JsonLd";
 
 export const metadata: Metadata = {
-  title: "Vessel Tracking — PolarSagar | NCPOR, Government of India",
+  title: "Vessel Tracking — PolarNCPOR | NCPOR, Government of India",
   description:
     "Live position and voyage details of Indian research and naval vessels supporting NCPOR expeditions to Antarctica and the Southern Ocean.",
 };
@@ -121,11 +121,11 @@ export default function VesselsPage() {
         data={{
           "@context": "https://schema.org",
           "@type": "WebPage",
-          name: "Vessel Tracking — PolarSagar",
+          name: "Vessel Tracking — PolarNCPOR",
           description: "Live position and voyage details of Indian research and naval vessels supporting NCPOR Antarctic expeditions.",
           isPartOf: {
             "@type": "WebSite",
-            name: "PolarSagar Portal",
+            name: "PolarNCPOR Portal",
             publisher: {
               "@type": "GovernmentOrganization",
               name: "National Centre for Polar and Ocean Research (NCPOR)",

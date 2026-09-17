@@ -68,7 +68,7 @@ export default function Footer() {
               <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-polar-800 text-white">
                 <Mountain className="h-4 w-4" />
               </div>
-              <span className="text-lg font-bold text-white">PolarSagar</span>
+              <span className="text-lg font-bold text-white">PolarNCPOR</span>
             </div>
             <p className="max-w-md text-sm leading-relaxed text-slate-500">
               Integrated Polar Science Outreach, Knowledge Repository &amp; Media

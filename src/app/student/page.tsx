@@ -297,7 +297,7 @@ export default function StudentPage() {
       </section>
 
       <p className="text-xs text-slate-500">
-        Illustrations are original vector artwork created for the PolarSagar portal.
+        Illustrations are original vector artwork created for the PolarNCPOR portal.
       </p>
     </div>
   );

@@ -28,8 +28,8 @@ interface Props {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const { data: expedition } = await getExpeditionBySlug(slug);
-  if (!expedition) return { title: "Not Found — PolarSagar" };
-  return { title: `${expedition.name} — PolarSagar` };
+  if (!expedition) return { title: "Not Found — PolarNCPOR" };
+  return { title: `${expedition.name} — PolarNCPOR` };
 }
 
 export default async function ExpeditionDetailPage({ params }: Props) {

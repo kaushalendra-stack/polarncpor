@@ -17,7 +17,7 @@ export interface PolicyContent {
 export function policyMetadata(title: string): Metadata {
   return {
     title,
-    description: `${title} of the PolarSagar Portal, NCPOR, Ministry of Earth Sciences, Government of India.`,
+    description: `${title} of the PolarNCPOR Portal, NCPOR, Ministry of Earth Sciences, Government of India.`,
   };
 }
 

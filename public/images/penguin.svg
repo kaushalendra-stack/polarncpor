@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Cute penguin icon">
+  <ellipse cx="100" cy="150" rx="58" ry="34" fill="#cbd5e1" opacity="0.5"/>
+  <ellipse cx="100" cy="98" rx="46" ry="58" fill="#0f172a"/>
+  <ellipse cx="100" cy="106" rx="33" ry="38" fill="#f8fafc"/>
+  <ellipse cx="100" cy="112" rx="22" ry="24" fill="#fbbf24"/>
+  <path d="M100 84 L106 96 L100 96 Z" fill="#fb923c"/>
+  <circle cx="86" cy="64" r="10" fill="#0f172a"/>
+  <circle cx="118" cy="64" r="10" fill="#0f172a"/>
+  <ellipse cx="91" cy="67" r="3.2" fill="#ffffff"/>
+  <ellipse cx="123" cy="67" r="3.2" fill="#ffffff"/>
+  <path d="M72 92 Q58 84 62 72 Q76 74 88 86" fill="#0f172a"/>
+  <path d="M130 92 Q144 84 140 72 Q126 74 114 86" fill="#0f172a"/>
+  <ellipse cx="92" cy="138" rx="10" ry="14" fill="#f59e0b"/>
+  <ellipse cx="108" cy="138" rx="10" ry="14" fill="#f59e0b"/>
+</svg>

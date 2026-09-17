@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Scientist researcher illustration">
+  <defs>
+    <linearGradient id="bgSc" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f0f9ff"/>
+      <stop offset="100%" stop-color="#c7d2fe"/>
+    </linearGradient>
+  </defs>
+  <circle cx="100" cy="100" r="96" fill="url(#bgSc)"/>
+  <!-- clipboard -->
+  <g transform="translate(132 84)">
+    <rect x="0" y="0" width="40" height="54" rx="6" fill="#ffffff" stroke="#64748b" stroke-width="2"/>
+    <rect x="10" y="-5" width="20" height="8" rx="3" fill="#cbd5e1"/>
+    <line x1="8" y1="14" x2="32" y2="14" stroke="#94a3b8" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="8" y1="24" x2="32" y2="24" stroke="#38bdf8" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="8" y1="34" x2="26" y2="34" stroke="#94a3b8" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M8 44 L18 44" stroke="#f59e0b" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+  <!-- head -->
+  <circle cx="86" cy="62" r="22" fill="#fbbf24"/>
+  <!-- safety glasses -->
+  <circle cx="79" cy="62" r="8" fill="none" stroke="#0f172a" stroke-width="3"/>
+  <circle cx="95" cy="62" r="8" fill="none" stroke="#0f172a" stroke-width="3"/>
+  <line x1="87" y1="62" x2="87" y2="62" stroke="#0f172a" stroke-width="3"/>
+  <line x1="71" y1="62" x2="60" y2="60" stroke="#0f172a" stroke-width="3" stroke-linecap="round"/>
+  <line x1="103" y1="62" x2="114" y2="60" stroke="#0f172a" stroke-width="3" stroke-linecap="round"/>
+  <!-- lab coat -->
+  <path d="M56 150 Q58 116 86 116 Q114 116 116 150 L104 150 L100 120 L72 120 L68 150 Z" fill="#f8fafc" stroke="#94a3b8" stroke-width="2"/>
+  <path d="M72 128 L100 128" stroke="#94a3b8" stroke-width="2" stroke-dasharray="4 3"/>
+  <!-- flask in hand -->
+  <g transform="translate(34 118)">
+    <path d="M18 0 L30 0 L30 8 L34 18 L2 18 L6 8 Z" fill="#7dd3fc" opacity="0.85"/>
+    <path d="M16 6 L26 6" stroke="#0ea5e9" stroke-width="3" stroke-linecap="round"/>
+    <rect x="13" y="-4" width="10" height="5" rx="1.5" fill="#334155"/>
+  </g>
+</svg>

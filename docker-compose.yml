@@ -1,0 +1,46 @@
+version: "3.9"
+
+services:
+  db:
+    image: postgres:16-alpine
+    container_name: polarsagar-db
+    restart: unless-stopped
+    environment:
+      - POSTGRES_USER=polarsagar
+      - POSTGRES_PASSWORD=polarsagar_dev
+      - POSTGRES_DB=polarsagar
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U polarsagar -d polarsagar"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: polarportal/polarsagar:latest
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+      - NEXT_PUBLIC_SITE_URL=https://polarportal.ncpor.gov.in
+      - DATABASE_URL=postgresql://polarsagar:polarsagar_dev@db:5432/polarsagar
+      - SESSION_SECRET=${SESSION_SECRET:-polar-portal-dev-secret-do-not-use-in-prod}
+    depends_on:
+      db:
+        condition: service_healthy
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "wget", "-qO-", "http://localhost:3000/api/health"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 15s
+
+volumes:
+  pgdata:

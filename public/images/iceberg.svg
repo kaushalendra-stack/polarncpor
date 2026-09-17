@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Iceberg icon">
+  <rect width="200" height="200" rx="40" fill="#e0f2fe"/>
+  <path d="M40 170 L70 108 L95 136 L118 96 L140 128 L156 170 Z" fill="#ffffff" stroke="#bae6fd" stroke-width="3"/>
+  <path d="M70 108 L95 136 L118 96" fill="none" stroke="#7dd3fc" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" opacity="0.6"/>
+  <path d="M118 170 L118 140 L140 156 Z" fill="#bae6fd" opacity="0.8"/>
+  <path d="M30 170 Q60 162 90 170 T150 170 T200 170 L200 200 L0 200 L0 170 Q15 166 30 170" fill="#38bdf8" opacity="0.7"/>
+  <path d="M0 184 Q50 176 100 184 T200 184 L200 200 L0 200 Z" fill="#0284c7" opacity="0.6"/>
+  <circle cx="150" cy="46" r="4" fill="#f59e0b"/>
+</svg>

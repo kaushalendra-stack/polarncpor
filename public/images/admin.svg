@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Administrator illustration">
+  <defs>
+    <linearGradient id="bgA" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fef3c7"/>
+      <stop offset="100%" stop-color="#bfdbfe"/>
+    </linearGradient>
+  </defs>
+  <circle cx="100" cy="100" r="96" fill="url(#bgA)"/>
+  <!-- shield -->
+  <path d="M100 22 L140 40 L140 92 Q140 132 100 156 Q60 132 60 92 L60 40 Z" fill="#1b2f6b" opacity="0.95"/>
+  <path d="M100 34 L132 49 L132 92 Q132 124 100 148 Q68 124 68 92 L68 49 Z" fill="#284bcf"/>
+  <!-- checkmark -->
+  <path d="M84 96 L96 110 L118 82" stroke="#7dd3fc" stroke-width="9" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- head -->
+  <circle cx="100" cy="120" r="16" fill="#fbbf24"/>
+  <!-- body -->
+  <path d="M82 176 Q84 158 100 158 Q116 158 118 176 Z" fill="#3260e1"/>
+</svg>
